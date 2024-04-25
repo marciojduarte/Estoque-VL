@@ -18,13 +18,19 @@ class userSeeder extends Seeder
         DB::table('users')->insert([
             'name' => 'admin',
             'email' => 'admin@gmail.com',
-            'password' => '',
+            'password' => '123456',
             'id_setor' => '1'
         ]);
         DB::table('users')->insert([
             'name' => 'Carlos Souza',
             'email' => 'carlosp.souza@gmail.com',
             'password' => '$2y$10$to8AahLa7ImvB8sVBhYAiezTFuFcWiW.GrteH1QQob0i.PgLcFjm2',
+            'id_setor' => '1'
+        ]);
+        DB::table('users')->insert([
+            'name' => 'admin1',
+            'email' => 'admin1@gmail.com',
+            'password' => '123456',
             'id_setor' => '1'
         ]);
     }
